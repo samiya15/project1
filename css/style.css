@@ -20,13 +20,20 @@ body{
     
 }
 .main_menu a:hover{
-    color: rgb(88, 86, 86);
+    color: rgb(88, 86, 86) ;
     background-color: bisque;
     text-decoration: none;
 
 }
 .main_menu-right{
     float:right;
+}
+.banner{
+    background-color: rgb(97, 91, 91) ;
+    padding:20px;
+    background-image: url(banner.jpeg) ;
+    text-align: center;
+    color:lightsalmon;
 }
 
 
