@@ -47,22 +47,33 @@ $months=["january","february","march","april",
         <?php
         //while loop
         $y=2014;
-       while($in<2030){
+       while($y<2030){
            print "<option value=''>$y</options>";
            $y++;
          }
          ?>
 </select>
 <select name="" id="">
-    <option value="">--Year--</option>
+    <option value="">--Days--</option>
         <?php
         $d=1;
         do{
             print "<option value=''>$d</options>";
-            $d;
+            $d++;
         }while($d<=31);
         ?>
 </select>
+    </form>
+    <form action="">
+ <select name="" id="">
+    <option value=""><?php print date('y')?></option>
+        <?php
+        foreach($months AS $month){
+            print "<option value=''>$month</options>";
+        }
+        ?>
 
+    </select>
+    </form>
         
 
