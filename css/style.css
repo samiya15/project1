@@ -31,7 +31,7 @@ body{
 .banner{
     background-color: rgb(97, 91, 91) ;
     padding:20px;
-    background-image: url(banner.jpeg) ;
+    background-image: url(banner.jpeg ) ;
     text-align: center;
     color:lightsalmon;
 }
