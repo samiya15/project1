@@ -36,4 +36,21 @@ body{
     color:lightsalmon;
 }
 
+.row::after{
+    content: "  ";
+    display: block;
+    clear: both;
+}
+.main_content{
+    float: left;
+    width: 60%;
+    padding: 20px;
+}
+
+.side_content{
+    float: left;
+    width: 40%;
+    padding: 20px;
+}
+
 
