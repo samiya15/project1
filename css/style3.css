@@ -1,0 +1,35 @@
+.footer{
+    padding: 14px 16px;
+    color:lightsalmon;
+}
+.rows::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.mainrow{
+    float: left;
+    width: 70%;
+    padding: 20px;
+    
+}
+.siderow{
+    float: left;
+    width: 30%;
+    padding: 20px;
+}
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: beige;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+    margin-top: 100px;
+}
