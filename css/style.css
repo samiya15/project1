@@ -3,7 +3,7 @@ body{
    background-color: beige;
     margin: 0;
 }
-*{
+{
     box-sizing:border-box ;
 }
 .main_menu{
@@ -36,7 +36,8 @@ body{
     color:lightsalmon;
 }
 .footer{
-    background-color: lightsalmon;
+    background-color: rgb(88, 86, 86);
+    overflow: hidden;
     text-align: center;
 }
 
