@@ -8,18 +8,10 @@
     </head>
 
 <body>
-    <div class="main_menu">
-       <a href="./">Home</a>
-       <a href="about.html">About Us</a>
-       <a href="enquire.html">Enquire</a>
-       <a href="menu.html">Our Menu</a>
-       <a href="order.html">Order Placement</a>
-      
-       <div class="main_menu-right">
-       <a href="login.html">Login</a>
-       <a href="signup.html">Register</a>
-       </div>
-    </div>
+    <?php include_once("nav.php");?>
+    
+ 
+ 
     <div class="banner">
          <h1>Welcome to the Siwaka Bakery</h1>
          <h3>There is no such thing as too much sweetness!</h3>
