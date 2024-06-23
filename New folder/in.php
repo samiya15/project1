@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-    This is my first php code
+ print   "This is my first php code";
     ?>
 </body>
 </html>
