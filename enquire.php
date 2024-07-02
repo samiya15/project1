@@ -1,12 +1,8 @@
-<?php include_once("template/heading.php");?>
-<?php include_once("nav.php");?>
-    
-    <div class="banner">
-         <h1>Welcome to the Siwaka Bakery</h1>
-         <h3>There is no such thing as too much sweetness!</h3>
+<?php require_once("includes/dbconnect.php");?>
 
-    </div>
-          
+<?php include_once("template/heading.php");?>
+<?php include_once("template/nav.php");?>
+<?php include_once("template/banner.php");?>
    
     </h1>
     <form action=""method="post">

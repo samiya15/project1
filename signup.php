@@ -1,11 +1,7 @@
 <?php include_once("template/heading.php");?>
-<?php include_once("nav.php");?>
+<?php include_once("template/nav.php");?>
     
-    <div class="banner">
-         <h1>Welcome to the Siwaka Bakery</h1>
-         <h3>There is no such thing as too much sweetness!</h3>
-
-    </div>
+<?php include_once("template/banner.php");?>
           
     
 
@@ -36,5 +32,6 @@
     </p><br><br><br><br>
     <p style="text-align: right;">Welcome to the Siwaka Bakery Family ❤️</p> 
 </h2>
+<?php include_once("template/footer.php");?>
 </body>
 </html>
