@@ -20,7 +20,9 @@ require_once("includes/dbconnect.php");
     ('$fn','$pwd', '$age', '$mail','$gender',  '$message')";
 
     if($conn->query($insert_message)=== TRUE){
-        echo "New record created successfully";
+      //  echo "New record created successfully";
+      header("Location: enquire.php");
+      exit();
 
     }else{
         echo "Error; ".$insert_message."<br>".$conn->error;
