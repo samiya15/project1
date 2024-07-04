@@ -1,7 +1,7 @@
 table{
     border: 1px solid  rgb(83, 81, 78);
     border-collapse: collapse;
-    width: 80%;
+    width: 65%;
 }
 td{
     border: 1px solid  rgb(83, 81, 78);
@@ -9,15 +9,15 @@ td{
     text-align: left;
 }
 th{
-    background-color:  rgb(83, 81, 78);
-    color: rgb(233, 233, 233);
+    background-color:  rgb(160, 152, 149);
+    color: beige;
     border: 1px solid  rgb(83, 81, 78);
     padding: 5px;
     text-align: left;
 }
 tr:nth-child(odd){
-    background-color: rgb(192, 186, 240);
+    background-color: rgb(194, 179, 179);
 }
 tr:hover{
-    background-color: rgb(246, 247, 193);
+    background-color: rgb(219, 186, 174);
 }
