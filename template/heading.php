@@ -5,6 +5,7 @@
       <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="css/style2.css">
       <link rel="stylesheet" href="css/style3.css">
+      <link rel="stlylsheet" href="css/tablestyle.css">
     </head>
 
 <body>

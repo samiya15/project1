@@ -1,7 +1,6 @@
 <?php include_once("template/heading.php");?>
     <?php include_once("template/nav.php");?>
-    
- 
+
  
     <?php include_once("template/banner.php");?>
 

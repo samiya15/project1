@@ -42,12 +42,12 @@ require_once("includes/dbconnect.php");
         <input type="password" id="pwd" 
         placeholder="password" name="password" required><br><br>
 
-
+        <label for="sb">Gender:</label><br>
         <select name="subject_line" id="sb" required>
             <option value="">--select Gender--</option>
-            <option value="">Male</option>
-            <option value="">Female</option>
-            <option value="">Rather not say</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Rather not say">Rather not say</option>
         </select><br><br>
 
         <input type="number"
