@@ -24,6 +24,7 @@ require_once("includes/dbconnect.php");
                       <th>Gender</th>
                       <th>Message Sent</th>
                       <th>Time</th>
+                      <th>Action</th>
                         </tr>
         </thead>                
     <tbody>
@@ -48,6 +49,7 @@ if ($select_msg_res->num_rows > 0) {
                 <td><?php print $sel_msg_row ["gender"];?></td>
                 <td><?php print substr($sel_msg_row ["text_message"],0,23)."....";?></td>
                 <td><?php print date("d-M-Y H:i", strtotime( $sel_msg_row ["datecreated"]));?></td>
+                <td>[<a href="edit_msg.php?messageId=<?php print $sel_msg_row ["messageId"];?>">edit</a>] [del]</td>
             </tr>
 
 
@@ -71,6 +73,7 @@ if ($select_msg_res->num_rows > 0) {
                       <th>Gender</th>
                       <th>Message Sent</th>
                       <th>Time</th>
+                      <th>Action</th>
                         </tr>
         </thead>         
     </table>
