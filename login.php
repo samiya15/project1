@@ -26,9 +26,8 @@
     </p>
     
     </h2>
-    <p>
-    
-    </p>
+    <p></p>
+    <p></p>
     <?php include_once("template/footer.php");?>
 </body>
 </html>
