@@ -13,7 +13,7 @@ require_once("includes/dbconnect.php");
     $gender =mysqli_real_escape_string($conn, $_POST["subject_line"]);
     $message = mysqli_real_escape_string($conn,$_POST["enquiry"]);
 
-
+// inserting messages into the database.
     $insert_message="INSERT INTO messages
     (sender_name, user_password, sender_age, sender_email, gender, text_message)
     VALUES
