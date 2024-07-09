@@ -21,7 +21,45 @@
     <?php date_default_timezone_set("Africa/Nairobi");?>
     Static timer: <?php print date("H:i:s");?>
     <br>
-    Dynamic timer: <div id="dtmer"></div>
+    Dynamic timer: <span id="dtmer"></span>
+
+    <br><br>
+
+    <script>
+        document.write('Listen to me');
+    </script>
+
+    <br><br>
+    
+    <script>
+      //window.alert('Your database is ready')  
+    </script>
+
+    <br><br>
+
+    <script>
+        console.log('Add information here');
+      </script>  
+
+    <br><br>
+
+    <a href="" onclick= "return confirm('Are you sure');">Delete</a>
+    <br><br>
+
+    <button type="button" onclick="window.print();">Print Page</button>
+    <br><br>
+
+      <script>
+        let streetname=prompt('What is your street name?');
+        var firstname="Alex";
+        const myage="40";
+        document.write(firstname+" A.K.A "+streetname+" is "+ myage +" years old");
+
+      </script>
+    <br><br>
+
+    
+
 
  
      <script src="script.js"></script>
