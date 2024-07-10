@@ -33,6 +33,9 @@ require_once("includes/dbconnect.php");
 ?>
    
     </h1>
+    <div class="card-container">
+      <div class="card">
+
     <form action="<?php print htmlspecialchars($_SERVER["PHP_SELF"])?>"method="POST">
         <label for="txt">Fullname:</label><br>
         <input type="text" id="txt"
@@ -50,28 +53,36 @@ require_once("includes/dbconnect.php");
             <option value="Rather not say">Rather not say</option>
         </select><br><br>
 
-        <input type="number"
+        <label for="age">Age</label><br>
+        <input type="number" id="age"
         placeholder="age" name="age" required><br><br>
 
-        <input type="email"
+        <label for="em">Email Address</label><br>
+        <input type="email" id="em"
         placeholder="email" name="email_address" required><br><br>
 
-        <input type="date"
+        <label for="dt">Date of enquiry:</label><br>
+        <input type="date" id="dt"
         placeholder="date of enquiry" name="date_enquiry" ><br><br>
 
-        <input type="time"
+        <label for="tm">Time of enquiry:</label><br>
+        <input type="time" id="tm"
         placeholder="time of enquiry" name="time_enquiry" ><br><br>
 
+
+
         
-<label for="txt">Kindly type in your enquiry</label><br><br>
-<textarea name="enquiry"id=" txt" cols="30" rows="10" required> </textarea><br><br>
+<label for="txt">Your Enquiry</label><br><br>
+<textarea name="enquiry"id=" txt" cols="30" rows="5" required> </textarea><br><br>
 
-<input name="label" type="radio" id="yes"><label for="yes">yes</label>
-<input name="label" type="radio" id="no"><label for="no">no</label>
-<br><br>
-<input type="submit" name="send_message" value="Save_Details">
-
+<div class="submit">
+<input type="submit" name="send_message" value="Save Details">
+</div>
     </form>
+   
+    </div>
+    </div>
+
 
    <div class="footer">
         copyright Siwaka Bakery &copy; -Allrights Reserved

@@ -36,11 +36,12 @@ body{
 }
 .card{
     width:325px;
-    background-color: lightsalmon;
+    background-color: rgb(192, 191, 190);
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2) ;
     margin: 20px;
+    padding: 15px 10px;
 }
 .card img{
     width:100%;
@@ -48,10 +49,12 @@ body{
 }
 .card-content{
     padding: 16px ;
+    margin:20px;
 }
 .card-content h3{
     font-size: 28px;
     margin-bottom: 8px;
+    padding:10px;
 }
 .card-content p{
     color: dimgrey;
@@ -68,4 +71,15 @@ body{
     margin-top: 16px;
     color: lightsalmon;
 
+}
+.submit{
+    width: 30%;
+    padding: 2px;
+    font-size: 1.6em;
+   
+    background-color: rgb(83, 81, 78);
+   
+    
+    margin: 2px 0;
+    border: none;
 }
