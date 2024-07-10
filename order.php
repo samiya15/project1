@@ -6,7 +6,8 @@
    
  
  </h1>
-    
+ <div class="card-container">
+ <div class="card">
  <form action=""method="post">
     <label for="txt">Username:</label><br>
     <input type="text" id="txt"
@@ -17,48 +18,48 @@
     placeholder="password"><br><br>
 
     
-    <label for="doo">Date of order</label>
+    <label for="doo">Date of order</label><br>
     <input type="date" id="doo"
         placeholder="date of order"><br><br>
-        <label for="dod">Date of  delivery</label>
+
+        <label for="dod">Date of  delivery</label><br>
         <input type="date" id="dod"
         placeholder="date of delivery"><br><br>
-        <select name="Desserts And drinks Available" id="ord">
-        
-            <option value="">--select the desserts and drinks you wish to order--</option>
-            
-            <option value=""> whiteforest cake</option>
-            
-            <option value="">blackforest cake </option>
-            <option value="">Cheescake </option>
-            <option value="">fudge cake</option>
-            <option value="">croisants</option>
-             <option value="">baklava</option>
-             <option value="">donuts</option>
-            <option value="">macaroons</option>
-            <option value="">cinnamon rolls</option>
-            <option value="">honeycombs</option>
-            <option value="">cake slices</option><br>
-            <input name="label" type="radio" id="1kg"><label for="1kg">1kg</label>
-            <input name="label" type="radio" id="2kg"><label for="2kg">2kg</label>
-            <input name="label" type="radio" id="3.5kg"><label for="3.5kg">3.5kg</label>
 
-            <option value="">croisants</option>
-             <option value="">baklava</option>
-             <option value="">donuts</option>
-            <option value="">macaroons</option>
-            <option value="">cinnamon rolls</option>
-            <option value="">honeycombs</option>
-            <option value="">cake slices</option>
 
-        </select><br><br>
+        <label> Your Order:</label><br>
+            
+            
+            <input name="label" type="radio" id="wfc"><label for="wfc">White Forest Cake</label><br>
+            <input name="label" type="radio" id="bfc"><label for="bfc">Black Forest Cake</label><br>
+            <input name="label" type="radio" id="cheese"><label for="cheese">Cheescake</label><br>
+            <input name="label" type="radio" id="rdv"><label for="rdv">Red Velvet Cake</label><br>
+
+            <input name="label" type="radio" id="fudge"><label for="fudge">Fudgecake</label><br>
+
+            <input name="label" type="radio" id="crs"><label for="crs">Croisants</label><br>
+
+            <input name="label" type="radio" id="bkl"><label for="bkl">Baklava</label><br>
+            <input name="label" type="radio" id="dnt"><label for="dnt">Donuts</label><br>
+            <input name="label" type="radio" id="mac"><label for="mac">Macaroons</label><br>
+            <input name="label" type="radio" id="cr"><label for="cr">Cinnamon Rolls</label><br>
+            <input name="label" type="radio" id="hb"><label for="hb">Cheescake</label><br><br>
+
+
+
+            
+
+   
         <label for="txt">Specify your order details</label><br>
 
-        <textarea name="order details "id=" txt" cols="30" rows="10"> </textarea><br><br>
+        <textarea name="order details "id=" txt" cols="30" rows="5"> </textarea><br><br>
+
+        <input type="submit" name="Order" value="Place Order">
 
 
  </form>
-
+</div>
+</div>
  <?php include_once("template/footer.php");?>
 </body>
 </html>

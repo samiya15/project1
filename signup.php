@@ -18,7 +18,7 @@ if(isset($_POST["signup"])){
 
 //verify that the email has the correct format
 if(!filter_var($mail, FILTER_VALIDATE_EMAIL)){
-    $_SESSION["wrong_email_format"]="wrong email address";
+    $_SESSION["wrong_email_format"]="wrong email format";
     $_SESSION["error"]="";
     
 }
@@ -74,6 +74,7 @@ color: beige;">
 
 <?php if(isset( $_SESSION["wrong_email_format"])){print '<span class="error_form">'.$_SESSION["wrong_email_format"].'</span>';
      unset ( $_SESSION["wrong_email_format"]);}?><br>
+     
     <label for="um"> Username: </label><br>
     <input type="text" id="um"  maxlength="50" name="username" required
     placeholder="Username"><br><br><br>
