@@ -17,7 +17,7 @@
     float: left;
     width: 30%;
     padding: 20px;
-    background-color: blue;
+    background-color:rgb(180, 176, 176);
 }
 *{
     margin:0px;
@@ -45,11 +45,11 @@ body{
 }
 .card img{
     width:100%;
-    height: auto;
+    height: 50%;
 }
 .card-content{
-    padding: 16px ;
-    margin:20px;
+    padding: 10px ;
+  
 }
 .card-content h3{
     font-size: 28px;

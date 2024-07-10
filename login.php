@@ -3,29 +3,29 @@
     
 <?php include_once("template/banner.php");?>
     
-    <p 
-    style="text-align: center;
-    color:lightsalmon;
-    text-decoration: none ;
-    text-shadow: 0cqb;">There is no such thing as too much sweetness! </p>
+    
 
 </h1>
     
-    <h2 style="text-align:left;
-    color:lightsalmon;
-    ">Kindly login<br><br>
-    <label for="txt">Username</label>
+<div class="card-container">
+      <div class="card">
+    <h4 style="text-align:left; ;
+    color:beige;
+    ">Kindly login<br><br><br><br.
+    <label for="txt">Username: </label><br>
     <input type="text" id="txt"
-    placeholder="username"><br><br>
-    <label for="pwd">Password  </label>
-    <input type="password" id="pwd"
-    placeholder="Password">
+    placeholder="username"><br><br><br>
 
-    <p>Are you a new customer? 
-        <a href="signup.html" style="color:black;">Sign Up</a>
+    <label for="pwd">Password: </label><br>
+    <input type="password" id="pwd"
+    placeholder="Password"><br><br><br>
+
+    <p>Are you a new customer? <br>
+        <a href="signup.php" style="color:black;">Sign Up</a>
     </p>
-    
-    </h2>
+</div>
+</div>
+    </h4>
     <p></p>
     <p></p>
     <?php include_once("template/footer.php");?>

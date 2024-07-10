@@ -20,7 +20,7 @@ of the most famous bakeries in Kenya!
 </p><br><br><br><br>
 <h2 style="text-align: center;
 color: lightsalmon;
-">Wanna know more?<a href="registration.html" style="color: black;">Enquire</a>😊</h2> 
+">Wanna know more?<a href="enquire.php" style="color: black;">Enquire</a></h2> 
 
 <?php include_once("template/footer.php");?>
 </body>
