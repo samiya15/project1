@@ -12,7 +12,7 @@ if(isset($_POST["signup"])){
     $username = mysqli_real_escape_string($conn, $_POST["username"]);
     $pass = mysqli_real_escape_string($conn,$_POST["passphrase"]);
     $age =mysqli_real_escape_string($conn, $_POST["age"]);
-    $genderId=mysqli_real_escape_string($conn, $_POST["genderId"]);
+    $gender=mysqli_real_escape_string($conn, $_POST["gender"]);
    
 //verify that the fullname contains only letters, space and a single quote
 
@@ -33,10 +33,8 @@ if(!filter_var($mail, FILTER_VALIDATE_EMAIL)){
 //verify that the password length is between 4 and 8 characters
 
 if(!isset($_SESSION["error"])){
-    $insert_message="INSERT INTO users
-        (fullname, email, username, pass, age, gender)
-        VALUES
-        ('$fn','$mail', '$username','$pass', '$age', '$gender')";
+    $insert_message="INSERT INTO `users` ( `fullname`, `email`, `username`, `pass`, `age`, `gender`) VALUES
+    ( '$fn', '$mail', '$username', '$pass',$age,'$gender')";
 
         if($conn->query( $insert_message)=== TRUE){
         //  echo "New record created successfully";
@@ -84,18 +82,18 @@ color: beige;">
     placeholder="age" name="age" required><br><br><br>
 
     <label for="gen">Gender: </label><br>
-        <select name="genderId" id="gen" required>
+        <select name="gender" id="gen" required>
         <option value="">--Select Gender--</option>
 
 
         <?php 
             
-            $sel_gen="SELECT * FROM gender ORDER BY  gender ASC" ;
+            $sel_gen="SELECT * FROM gender ORDER BY  genderId ASC" ;
             $sel_gen_res = $conn->query($sel_gen);
             while($sel_gen_row = $sel_gen_res->fetch_assoc()){
                 ?>
 
-                <option value="<?php print $sel_gen_row["genderId"];?>"><?php print $sel_gen_row["gender"];?></option>
+                <option value="<?php print $sel_gen_row["gender"];?>"><?php print $sel_gen_row["gender"];?></option>
                 <?php
             }
             ?>
